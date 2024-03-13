@@ -1,4 +1,4 @@
-public class Dog extends Animal{
+public class Dog extends Animal{ // Inheritance
     public void digHole(){
         System.out.println("Dug a hole");
     }
@@ -9,7 +9,7 @@ public class Dog extends Animal{
     }
 
     public void changeVar(int randNum){
-        randNum = 12;
+        randNum = 12; 
         System.out.println("random in mehtod: " + randNum);
     }
 }

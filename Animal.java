@@ -1,14 +1,17 @@
 public class Animal {
-
+    // Fields (Instance Variables)
     private String name;
     private double height;
     private int weight;
     private String sound;
 
+    // Getter = Accessors | Setter = Mutators
+
     public void setName(String newName){name = newName;}
     public String getName(){return name;}
 
-    public void setWeight(int newWeight){
+    // Encapsulation
+    public void setWeight(int newWeight){ // int newWeight is Parameter
         if(newWeight > 0){
             weight=newWeight;
         }else{
