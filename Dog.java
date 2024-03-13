@@ -7,4 +7,9 @@ public class Dog extends Animal{
         super();
         setSound("Bark");
     }
+
+    public void changeVar(int randNum){
+        randNum = 12;
+        System.out.println("random in mehtod: " + randNum);
+    }
 }
